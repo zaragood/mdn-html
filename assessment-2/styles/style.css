@@ -1,0 +1,66 @@
+/** @format */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+header {
+  height: 33vh;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: green;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 30px;
+}
+header img {
+  width: 50px;
+  height: 50px;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  font-size: 20px;
+  background-color: greenyellow;
+  padding: 20px;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  max-width: 60%;
+  margin: 10px;
+}
+.content h2 {
+  text-align: center;
+}
+
+aside {
+  background-color: aquamarine;
+    grid-template-columns: 1fr 1fr;
+}
+aside img {
+  width: 200px;
+  height: 200px;
+
+}
+footer {
+ position: absolute;
+ bottom: 0;
+ text-align: center;
+}
