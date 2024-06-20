@@ -166,22 +166,23 @@
           />
         </a>
         <a href="https://addons.mozilla.org/">
-          <img
-            srcset="
-              images/firefox-addons-120.jpg 120w,
-              images/firefox-addons-400.jpg 400w
-              "
-            sizes="(max-width: 500px) 120px, 400px"
-            src="images/firefox-addons.jpg"
-            alt="firefox addon"
+          <picture>
+            <source media="(max-width: 500px)" srcset="
+            images/firefox-addons-120.jpg 120w,
+            images/firefox-addons-400.jpg 400w
+            ">
+            <img
+              src="images/firefox-addons.jpg"
+              alt="firefox addon"
             
-          />
+            />
+          </picture>
         </a>
         <a
           href="https://developer.mozilla.org/en-US/"
           alt="firefox addon"
           srcset="images/firefox-addons-120.jpg 120w, images/firefox-addons-400.jpg 400w"
-          sizes="(max-width: 500px) 120px, 400px"
+          sizes="(max-width: 500px)"
         >
           <img src="images/mdn.svg" />
         </a>
@@ -190,9 +191,8 @@
 
       <div class="red-panda">
         <picture>
+          <source media="(max-width:600px)" srcset="images/red-panda-1200.jpg, images/red-panda-600.jpg 600w"> 
           <img
-            srcset="images/red-panda-1200.jpg 1200w, images/red-panda-600 600w"
-            sizes="(max-width:600px) 1200px 600px"
             src="images/red-panda.jpg"
             alt="red panda"
             
